@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://avatars.mds.yandex.net/i?id=6e78d0b52a48118d59abf776bf4e78031e6f0066-13083850-images-thumbs&n=13);
+    background-size: cover;
+    height: 100vh;
+  }
+  .container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .colonki {
+    width: calc(25vw - 4vw);
+    background-color: hsl(0, 0%, 24%);
+    padding: 10px;
+    min-height: 10vh;
+    color: aquamarine;
+    border: 4px solid aquamarine;
+  }
+  
+  p {
+    font-size: calc(6px + 1vw);
+    font-family: "Courier New", Courier, monospace;
+  }
+  .block {
+    width: 80%;
+    min-width: 45vw;
+    max-width: 90vw;
+    padding: 40px;
+    min-height: 45vh;
+    max-height: 45vh;
+    margin: 0 auto;
+    background-color: #6c1dcc;
+    border: 15px solid #000000;
+    border-radius: 10px;
+  }
